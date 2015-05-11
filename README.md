@@ -1,29 +1,32 @@
-Machinecoin integration/staging tree
+Testcoin integration/staging tree
 ================================
-
-http://machinecoin.org
 
 Copyright (c) 2009-2015 Bitcoin Developers
 Copyright (c) 2011-2015 Litecoin Developers
 Copyright (c) 2015 Machinecoin Developers
+-----------------------------------------
 
-What is Machinecoin?
+Copyright (c) 2015 Kn´Developers
+
+
+What is Testcoin?
 ----------------
 
-The Machinecoin (3 letter short form often used in public: MAC) is a free and decentralized peer-to-peer cryptocurrency that was created on the basis of Litecoin and Bitcoin.
- - 2.5 minute block targets
- - subsidy halves in 840k blocks (~4 years)
- - ~84 million total coins
- - 50 coins per block
- - 1 block to retarget difficulty
+The Testcoin is peer-to-peer cryptocurrency that was created on the basis of Bitcoin.
+ 
+- 
+- 
+- ~> million total coins
+- 50 coins per block
+- 
 
 For more information, as well as an immediately useable, binary version of
-the Machinecoin client sofware, see http://machinecoin.org.
+the Testcoin client sofware, see comming soon ...http://
 
 License
 -------
 
-Machinecoin is released under the terms of the MIT license. See `COPYING` for more
+Testcoin is released under the terms of the MIT license. See `COPYING` for more
 information or see http://opensource.org/licenses/MIT.
 
 Development process
@@ -68,4 +71,4 @@ Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
 
     qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
     make -f Makefile.test
-    ./machinecoin-qt_test
+    ./testcoin-qt_test
